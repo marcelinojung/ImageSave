@@ -2,7 +2,7 @@
 <plugin id="cordova-plugin-imagesave" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>ImageSave</name>
     <js-module name="ImageSave" src="www/ImageSave.js">
-        <clobbers target="com.handsmap.imagesave.ImageSave" />
+        <clobbers target="cordova.plugins.ImageSave" />
     </js-module>
 
     <platform name="ios">
